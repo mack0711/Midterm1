@@ -7,36 +7,48 @@
     <title>Document</title>
     <style>
        body{ font-family: Arial;
-    background-color: rgb(83, 221, 255);}
+    background-color: rgb(253, 135, 192);}
 
 
         #image1 {
           display: block;
           margin-left: auto;
           margin-right: auto;
-          width:1024px;
+          width:1020px;
         }
+        
+        a{
+            display:inline-block;
+            width:296px;
+            height:30px;
+            text-decoration:none ;
+            text-align: center;
+            color:black ;
+
+        }
+
+        
        
+
         .two img{
             float:left;
         }
         .container{
-            background-color: rgb(121, 235, 255);
+            background-color: rgb(253, 190, 220);
             width:1020px;
             margin: 0 auto;
-          
-           
         }
+
         .title{
             position: absolute;
-            top: 30%;
+            top: 35%;
             background-color: rgba(255, 255, 255, 0);
             width: 80%;
             text-align: center;  
+            font-size: 80px;
 }
-        
 
-      
+       
        
         .centered {
   position: absolute;
@@ -45,8 +57,21 @@
   transform: translate(-50%, -700%);
 }
 h1{margin: 0px;
-background-color: rgb(121, 235, 255);}
+background-color: rgb(253, 190, 220);}
 
+
+
+li {
+  display: inline-block;
+  text-align: center;
+  padding: 13px 5px;
+  width: 300px;
+  height: 30px;}
+
+  footer{
+    padding: 30px;
+  }
+ 
 
 
     
@@ -55,21 +80,22 @@ background-color: rgb(121, 235, 255);}
     <div class="container">
     <div class="image">
         <h1 class="title">Unicorn</h1>
-        <img id="image1"src="Unicorn1.jpg" alt=" This is a magical Unicorn" width="950px" height="300px">
+        <img id="image1"src="Unicorn1.jpg" alt=" This is a magical Unicorn" width="950px" height="400px">
        
        
 </div>
 <nav >
     
     <div class="container">
-        
-        <ul class="navigator">
+
+        <ul class="nav1">
             
-            <li><a href="">HOME</a></li>
-            <li><a href="">STORY</a></li>
-            <li><a href="">CONTACT</a></li>
+            <li ><a href="">HOME</a></li>
+            <li ><a href="">STORY</a></li>
+            <li ><a href="">CONTACT</a></li>
         </ul>
         &nbsp
+        </div>
   </nav>
     </header>
 </head>
@@ -81,10 +107,10 @@ background-color: rgb(121, 235, 255);}
         <p class="two"> <img  src="Unicorn2.jpg" alt="Magical Unicorn" style="width:180px;height:185px;margin-right:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam veli Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam veli ..</p>
 
         <h3>Facts about Unicorns</h3>
-        <ul>
-            <li>pink</li>
-            <li>purple</li>
-            <li>lightblue</li>
+        <ul class="fact">
+            <li class="fact">pink</li>
+            <li class="fact">purple</li>
+            <li class="fact"> lightblue</li>
         </ul>
         
     
@@ -94,11 +120,14 @@ background-color: rgb(121, 235, 255);}
         <h3>Contact to learn more</h3>
         <fieldset>
         <label for="fullname">Your name</label><br>
-        <textarea id="fullname"></textarea><br><br>
+        <input id="fullname"><br><br>
         <label for="Fullemail">Your Email</label><br>
-        <textarea id="fullemail"></textarea><br><br>
+        <input id="fullemail"><br><br>
         <label for="Message">Your Message</label><br>
-        <textarea id="Message"></textarea>
+        <div class="message"></div>
+        <input id="Message">
+        
+    
     </form>
     <h3>Would you like to visit this site?</h3>
     <form action="index.html" method="post">
@@ -111,6 +140,7 @@ background-color: rgb(121, 235, 255);}
         <input type="radio" value="Maybe"><br><br>
         <button input="Send">Send</button>
         </fieldset>
+    </div>
       </form>
     </article>
     <div class="container">
