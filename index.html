@@ -14,7 +14,7 @@
           display: block;
           margin-left: auto;
           margin-right: auto;
-          width:1020px;
+          width:1016px;
         }
         
         a{
@@ -32,6 +32,7 @@
 
         .two img{
             float:left;
+            margin-left: 2px;
         }
         .container{
             background-color: rgb(253, 190, 220);
@@ -57,8 +58,27 @@
   transform: translate(-50%, -700%);
 }
 h1{margin: 0px;
+    padding: 10px;
 background-color: rgb(253, 190, 220);}
 
+.facts{padding: 10px;}
+
+.contact{padding:10px;}
+
+.imput2{width: 95%;
+        border: 1px solid pink;}
+
+.message{width: 95%;
+    height: 100px;
+    border: 1px solid pink;}
+
+    fieldset{margin-left: 10px;
+            margin-right: 10px;
+            border: 1px solid black;}
+
+    .button{background-color: rgb(253, 190, 220);
+            border: 1px solid black;
+        padding: 10px;}
 
 
 a {
@@ -72,17 +92,28 @@ a {
 }
 a:last-child{ border-right:none;}
 
+.fact{
+    padding: 0px;
+    margin-left: -15px;
+}
+
 
   footer{
     padding: 30px;
+    left: 0%;
+    right: 0%;
+    width:95% ;
+    text-align: right;
+    font-weight: 545;
   }
  
   div.absolute{
     position: absolute;
-    top: 88px;
-    right: 0%;
+    
   }
 
+  p{font-size: 14px;
+    margin-left: 10px;}
     
     </style>
     <header>
@@ -112,10 +143,10 @@ a:last-child{ border-right:none;}
     <article>
         <div class="container">
         <h1 class="Unicorntitle">Life of a Unicorn</h1>
-        <p class="two"> <img  src="unicorn2.jpg" alt="Magical Unicorn" style="width:180px;height:185px;margin-right:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam veli Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam veli ..</p>
+        <p class="two"> <img  src="unicorn2.jpg" alt="Magical Unicorn" style="width:180px;height:185px;margin-right:15px;">Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
 
-        <h3>Facts about Unicorns</h3>
-        <ul class="fact">
+        <h3 class="facts">Facts about Unicorns</h3>
+        <ul >
             <li class="fact">pink</li>
             <li class="fact">purple</li>
             <li class="fact"> lightblue</li>
@@ -126,15 +157,15 @@ a:last-child{ border-right:none;}
     
     <form action="index.html" method="post">
         <div class="container"></div>
-        <h3>Contact to learn more</h3>
+        <h3 class="contact">Contact to learn more</h3>
         <fieldset>
         <label for="fullname">Your name</label><br>
-        <input id="fullname"><br><br>
+        <input class="imput2" id="fullname"><br><br>
         <label for="Fullemail">Your Email</label><br>
-        <input id="fullemail"><br><br>
+        <input class="imput2" id="fullemail"><br><br>
         <label for="Message">Your Message</label><br>
-        <div class="message"></div>
-        <input id="Message">
+        
+        <input  class="message"id="Message">
         
     
     </form>
@@ -147,14 +178,15 @@ a:last-child{ border-right:none;}
         <input type="radio" value="No">
         <label for="Myabe"> Maybe</label>
         <input type="radio" value="Maybe"><br><br>
-        <button input="Send">Send</button>
+        <button class="button" input="Send">Send</button>
         </fieldset>
     </div>
       </form>
-    </article>
+    
     <div class="container">
         
-    <footer div class="absolute">&copy;Unicorn</footer>
+    <footer div class="absolute" >&copy;Unicorn.</footer>
+
 </body>
 </div>
 </html>
