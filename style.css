@@ -4,8 +4,6 @@ background-color: rgb(253, 135, 192);}
 
 
 
-
-
  #image1 {
    display: block;
    margin-left: auto;
@@ -32,6 +30,7 @@ background-color: rgb(253, 135, 192);}
     border-right:1px solid black;
     font-weight: 600;
     }
+    /*make sure the last border divider is not showing*/
     a:last-child{ border-right:none;}
  
 
@@ -40,6 +39,10 @@ background-color: rgb(253, 135, 192);}
      float:left;
      margin-left: 2px;
  }
+
+ p{font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;}
  .container{
      overflow: hidden;
      background-color: rgb(253, 190, 220);
@@ -72,6 +75,7 @@ h1{margin: 0px;
 padding: 10px;
 background-color: rgb(253, 190, 220);}
 
+/*make sure list is a light away from the edge page*/
 .facts{padding: 10px;}
 
 .contact{padding:10px;}
@@ -116,12 +120,4 @@ text-align: right;
 font-weight: 545;
 }
 
-div.absolute{
-position: absolute;
-
-}
-
-p{font-size: 14px;
-margin-left: 10px;
-margin-right: 10px;}
 
