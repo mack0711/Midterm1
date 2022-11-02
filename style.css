@@ -37,7 +37,7 @@ background-color: rgb(253, 135, 192);}
      margin: 0 auto;
  }
 
- .tit#le{
+ .title{
      position: absolute;
      top: 35%;
      background-color: rgba(255, 255, 255, 0);
@@ -47,7 +47,8 @@ background-color: rgb(253, 135, 192);}
      
 }
 
-
+h2{margin: 0px;
+    padding: 10px;}
 
  .centered {
 position: absolute;
@@ -65,13 +66,17 @@ background-color: rgb(253, 190, 220);}
 
 .contact{padding:10px;}
 
-.imput2{width: 95%;
+#fullname{width: 95%;
  border: 1px solid pink;}
+
+ #fullemail{width: 95%;
+    border: 1px solid pink;}
 
 .message{width: 95%;
 height: 100px;
 border: 1px solid pink;
-resize: none;}
+resize: none;
+font-family: Verdana;}
 
 fieldset{margin-left: 10px;
      margin-right: 10px;
