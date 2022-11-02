@@ -1,4 +1,4 @@
-
+/* moved css here*/
 body{ font-family: Verdana;
 background-color: rgb(253, 135, 192);}
 
@@ -23,6 +23,16 @@ background-color: rgb(253, 135, 192);}
 
  }
 
+ a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 5px;
+    width: 320px;
+    height: 30px;
+    border-right:1px solid black;
+    font-weight: 600;
+    }
+    a:last-child{ border-right:none;}
  
 
 
@@ -46,7 +56,7 @@ background-color: rgb(253, 135, 192);}
      font-size: 80px;
      
 }
-
+/*added a different h2*/
 h2{margin: 0px;
     padding: 10px;}
 
@@ -66,6 +76,7 @@ background-color: rgb(253, 190, 220);}
 
 .contact{padding:10px;}
 
+/*different css rule set to each imput in forms*/
 #fullname{width: 95%;
  border: 1px solid pink;}
 
@@ -78,6 +89,7 @@ border: 1px solid pink;
 resize: none;
 font-family: Verdana;}
 
+/*move border of form a little away from the edge*/
 fieldset{margin-left: 10px;
      margin-right: 10px;
      border: 1px solid black;}
@@ -87,16 +99,7 @@ fieldset{margin-left: 10px;
  padding: 10px;}
 
 
-a {
-display: inline-block;
-text-align: center;
-padding: 5px 5px;
-width: 320px;
-height: 30px;
-border-right:1px solid black;
-font-weight: 600;
-}
-a:last-child{ border-right:none;}
+
 
 .fact{
 padding: 0px;
